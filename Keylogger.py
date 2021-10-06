@@ -15,5 +15,5 @@ def on_release(key):
         sys.exit(0)
 
 if __name__ == "__main__":
-    with Listener (on_press=on_press, on_release=on_release) as listener
+    with Listener (on_press=on_press, on_release=on_release) as listener:
         listener.join()
